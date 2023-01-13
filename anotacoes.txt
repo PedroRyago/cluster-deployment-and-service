@@ -1,0 +1,2 @@
+kubectl aplly -f app-deployment.yml
+gcloud compute firewall-rules create nome-do-pod --allow=tcp:30025
